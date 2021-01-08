@@ -18,6 +18,14 @@
     </properties>
 
     <dependencies>
+
+        <!-- Apache csv writer and reader -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.8</version>
+        </dependency>
+
         <!-- Testing -->
         <dependency>
             <groupId>org.junit.platform</groupId>
